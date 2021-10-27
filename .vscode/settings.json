@@ -1,0 +1,35 @@
+{
+  "[hjson]": {
+    "editor.rulers": [
+      {
+        "column": 80
+      }
+    ]
+  },
+  "[markdown]": {
+    "editor.rulers": [
+      {
+        "column": 80
+      }
+    ]
+  },
+  "[yaml]": {
+    "editor.rulers": [
+      {
+        "column": 80
+      }
+    ]
+  },
+  "cSpell.words": [
+    "emergencywebpage",
+    "hjson"
+  ],
+  "markdownlint.config": {
+    "no-inline-html": false,
+    "single-trailing-newline": false,
+    "no-multiple-blanks": true,
+    "no-blanks-blockquote": false,
+    "no-trailing-punctuation": false,
+    "ol-prefix": false
+  }
+}

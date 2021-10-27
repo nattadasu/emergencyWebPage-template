@@ -1,0 +1,38 @@
+{
+  "name": "emergencywebpage-template",
+  "version": "1.0.0",
+  "description": "🚑 Emergency Purposed Web Page.",
+  "scripts": {
+    "prepare:hjson": "npx fse copy ./template/_metadata.hjson ./_metadata.hjson",
+    "prepare:yaml": "npx fse copy ./template/_metadata.yaml ./_metadata.yaml",
+    "convert:hjson": "npx any-json ./_metadata.hjson --output-format=json _metadata.json",
+    "convert:yaml": "npx any-json ./_metadata.yaml --output-format=json _metadata.json",
+    "validate": "npx z-schema ./src/metadata.schema.json ./_metadata.json && npx z-schema ./src/webmanifest.schema.json ./main.webmanifest",
+    "serve": "npx trash ./_metadata.* !./_metadata.json && npm run validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattadasu/emergencyWebPage-template.git"
+  },
+  "keywords": [
+    "Emergency",
+    "911",
+    "119",
+    "110",
+    "112",
+    "contact"
+  ],
+  "author": "nattadasu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nattadasu/emergencyWebPage-template/issues"
+  },
+  "homepage": "https://github.com/nattadasu/emergencyWebPage-template#readme",
+  "dependencies": {
+    "@atao60/fse-cli": "^0.1.7",
+    "any-json": "^3.1.0",
+    "hjson": "^3.2.2",
+    "trash-cli": "^4.0.0",
+    "z-schema": "^4.2.4"
+  }
+}
