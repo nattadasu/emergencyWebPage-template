@@ -7,7 +7,7 @@
 <h1 align="center">emergencyWebPage-Template</h1>
 
 <p align="center">
-  Official GFX Encyclopedia by The Newbie Club.
+  🚑 Emergency Purposed Web Pages Template
   <!-- Badges -->
   <br />
   <br />
