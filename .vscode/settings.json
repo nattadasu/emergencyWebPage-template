@@ -1,35 +1,52 @@
 {
-  "[hjson]": {
+  //Remove ruler
+  "[json]": {
+    "editor.rulers": [
+    ]
+  },
+  "[html]": {
     "editor.rulers": [
       {
-        "column": 80
+        "column": 100
       }
     ]
   },
-  "[markdown]": {
-    "editor.rulers": [
-      {
-        "column": 80
-      }
-    ]
-  },
-  "[yaml]": {
-    "editor.rulers": [
-      {
-        "column": 80
-      }
-    ]
-  },
+  "editor.rulers": [
+    {
+      "column": 80
+    }
+  ],
   "cSpell.words": [
     "emergencywebpage",
-    "hjson"
+    "hjson",
+    "markdownlint",
+    "Natsu",
+    "noindex",
+    "Tadama"
   ],
   "markdownlint.config": {
     "no-inline-html": false,
     "single-trailing-newline": false,
-    "no-multiple-blanks": true,
+    "no-multiple-blanks": {
+      "maximum": 1
+    },
     "no-blanks-blockquote": false,
     "no-trailing-punctuation": false,
-    "ol-prefix": false
+    "ol-prefix": false,
+    "line-length": {
+      "line_length": 100,
+      "tables": false
+    }
+  },
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "main.webmanifest"
+      ],
+      "url": "./schema/webmanifest.json"
+    }
+  ],
+  "yaml.schemas": {
+    "./schema/metadata.json": "./_metadata.yaml"
   }
 }

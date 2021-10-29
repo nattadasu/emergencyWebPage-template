@@ -2,5 +2,9 @@
     "recommendations": [
         "laktak.hjson",
         "EditorConfig.EditorConfig",
+        "redhat.vscode-yaml",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
     ]
 }
