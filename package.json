@@ -9,7 +9,8 @@
     "convert:hjson": "npx any-json ./_metadata.hjson --output-format=json _metadata.json",
     "convert:yaml": "npx any-json ./_metadata.yaml --output-format=json _metadata.json",
     "validate": "npx z-schema ./schema/metadata.json ./_metadata.json && npx z-schema ./schema/webmanifest.json ./main.webmanifest",
-    "serve": "npx trash ./_metadata.* !./_metadata.json && npm run validate"
+    "serve": "npx trash ./_metadata.* !./_metadata.json && npm run validate",
+    "lint": "markdownlint **/*.md -c config/markdownlint.yaml -i node_modules"
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
     "hjson": "^3.2.2",
     "trash-cli": "^4.0.0",
     "z-schema": "^4.2.4"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.29.0"
   }
 }
