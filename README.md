@@ -93,16 +93,16 @@ As this project will ask you several sensitive information such as:
 
 We want you to keep the information secret by following this steps:
 
-1. Make the repo private\
+1. **Make the repo private**\
    This can ensure only you are able to maintain and protect your own data.
-2. Do not delete [`robots.txt`](robots.txt) and/or any `<head>` tag contents on
-   HTML files\
+2. **Do not delete [`robots.txt`](robots.txt) and/or any `<head>` tag contents on
+   HTML files**\
    Those two files contain traffic control for search engine scraping bot to not
    put the site to the search result.
-3. Do not use any 3rd party service\
+3. **Do not use any 3rd party service**\
    Such as: short link generator, web hosting, etc. Their Privacy Policy and/or
    Term of Service may able to reveal your identity to public.
-4. Do not reveal your website to public\
+4. **Do not reveal your website to public**\
    As search engine may able to scrape your website from the site you're sharing
    to.
 
