@@ -95,8 +95,8 @@ We want you to keep the information secret by following this steps:
 
 1. Make the repo private\
    This can ensure only you are able to maintain and protect your own data.
-2. Do not delete [`robots.txt`](robots.txt) and/or any `<head>` tag content on
-   HTML files.\
+2. Do not delete [`robots.txt`](robots.txt) and/or any `<head>` tag contents on
+   HTML files\
    Those two files contain traffic control for search engine scraping bot to not
    put the site to the search result.
 3. Do not use any 3rd party service\
