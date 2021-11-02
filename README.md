@@ -51,6 +51,11 @@ This project is actually a form of worry of [the maintainer](#contact) if in
 some case you need a emergency assistance, a cellphone that is brought does not
 have power and does not have backup power.
 
+For data serialization, we utilize [HJSON](https://hjson.github.io) and
+[YAML](https://yaml.org/) as we aim this project to be beginner friendly and
+not being *overwhelmed* with how JSON works. However, at the end result, those
+one of formats will be converted to JSON for compatibility.
+
 This site will be only accessible via QR Code attached on user's ID card(s) or
 customized emergency card user made. To achieve this, this repo by default
 contains [`robots.txt`](robots.txt) and `noindex` meta tag in
