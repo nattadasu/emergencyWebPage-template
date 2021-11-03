@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 600) {
+    .marginset {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 600) {
+    .marginset {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.warnBox {
+    background-color:#EF3A1F;
+    color:#FFF;
+}

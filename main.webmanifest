@@ -1,0 +1,19 @@
+{
+  "name": "Emergency Contacts Page",
+  "short_name": "Emergency",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "description": "🚑 Emergency Purposed Web Page",
+  "background_color": "#EF3A1F",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "src/favicons/ms-icon-310x310.png",
+      "type": "image/png",
+      "sizes": "any",
+      "purpose": "maskable any"
+    }
+  ],
+  "theme_color": "#EF3A1F"
+}
