@@ -15,6 +15,9 @@
       "description": "Medical Terms"
     }
   ],
+  "import": [
+    ".ignoreWords.yaml"
+  ],
   "words": [
     "emergencywebpage",
     "hjson",

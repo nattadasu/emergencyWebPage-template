@@ -1,0 +1,7 @@
+# cSpell config
+version: "0.2"
+language: en
+
+# Start inserting words you want to ignore here, after dash:
+words:
+  - 
