@@ -1,0 +1,35 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "html",
+    "typescript",
+    "node",
+    "css"
+  ],
+  "words": [
+    "emergencywebpage",
+    "hjson",
+    "markdownlint",
+    "Abrosexual",
+    "Androgynosexual",
+    "Androsexual",
+    "Aromantic",
+    "Biromantic",
+    "Ceterosexual",
+    "Demiromantic",
+    "Demisexual",
+    "Finsexual",
+    "Gynosexual",
+    "Heteroromantic",
+    "Homoromantic",
+    "Omnisexual",
+    "Panromantic",
+    "Pansexuality",
+    "Polysexual",
+    "Pomosexuality",
+    "Sapiosexual",
+    "Skoliosexual"
+  ],
+  "allowCompoundWords": true
+}
