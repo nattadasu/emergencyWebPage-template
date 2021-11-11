@@ -2,7 +2,8 @@
   //Remove ruler
   "[json]": {
     "editor.rulers": [
-    ]
+    ],
+    "editor.wordWrap": "on"
   },
   "[html]": {
     "editor.rulers": [
@@ -15,14 +16,6 @@
     {
       "column": 80
     }
-  ],
-  "cSpell.words": [
-    "emergencywebpage",
-    "hjson",
-    "markdownlint",
-    "Natsu",
-    "noindex",
-    "Tadama"
   ],
   "markdownlint.config": {
     "no-inline-html": false,
