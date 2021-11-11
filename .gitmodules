@@ -1,3 +1,6 @@
 [submodule "src/css/w3css"]
 	path = src/css/w3css
 	url = https://github.com/nattadasu/w3css.git
+[submodule ".dictionary/medical"]
+	path = ./dictionary/medical
+	url = https://github.com/Glutanimate/wordlist-medicalterms-en
