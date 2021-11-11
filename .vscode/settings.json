@@ -43,6 +43,6 @@
     "./schema/metadata.json": "./_metadata.yaml"
   },
   "cSpell.import": [
-    "config/.cspell.json"
+    "config/cspell.json"
   ]
 }
