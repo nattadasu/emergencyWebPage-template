@@ -29,3 +29,7 @@ exclude_link_local = true
 
 # Exclude all mail addresses from checking
 exclude_mail = false
+
+exclude_file = [
+    ".dictionary/*"
+]

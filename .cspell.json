@@ -5,7 +5,15 @@
     "html",
     "typescript",
     "node",
-    "css"
+    "css",
+    "medic"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "path": "./.dictionary/medical/wordlist.txt",
+      "name": "medic",
+      "description": "Medical Terms"
+    }
   ],
   "words": [
     "emergencywebpage",
