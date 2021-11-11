@@ -2,6 +2,7 @@
 # Omit to accept all response types.
 accept = "200,204,206"
 
+
 # Only test links with the given scheme (e.g. https)
 # Omit to check links with any scheme
 #scheme = "https"
@@ -19,9 +20,7 @@ headers = [
 ###
 # Exclude URLs from checking (supports regex)
 exclude = [
-    "myanimelist.net/profile",
-    "deviantart.com",
-    "thenewbieclub.net"
+    "http://www.e-medtools.com/openmedspel.html"
 ]
 
 # Exclude link-local IP address range from checking
@@ -29,7 +28,3 @@ exclude_link_local = true
 
 # Exclude all mail addresses from checking
 exclude_mail = false
-
-exclude_file = [
-    ".dictionary/*"
-]
