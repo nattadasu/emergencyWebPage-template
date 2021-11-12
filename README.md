@@ -144,27 +144,35 @@ Below list things you need to use the software and how to install them.
 
 2. Once the repo created, clone the repo to your machine
 
-   ```sh
+   ```powershell
    git clone https://github.com/<YOUR USERNAME>/<YOUR REPO NAME>.git
    ```
 
-3. Install `npm` packages
+3. Clone all submodules available from remote to local.
 
-   ```sh
+   ```powershell
+   cd "<YOUR REPO NAME>" && git submodule update --init --recursive
+   ```
+
+   > This way is compatible with older version of `git`.
+
+4. Install `npm` packages
+
+   ```powershell
    npm install
    ```
 
-4. By your preferred file:
+5. By your preferred file:
 
    * HJSON
 
-     ```sh
+     ```powershell
      npm run prepare:hjson
      ```
 
    * YAML
 
-     ```sh
+     ```powershell
      npm run prepare:yaml
      ```
 
@@ -180,17 +188,25 @@ Below list things you need to use the software and how to install them.
 1. Fork this repo
 2. Clone the repo
 
-   ```sh
-   git clone https://github.com/<YOUR USERNAME>/emergencyWebPage-Template.git
+   ```powershell
+   git clone https://github.com/<YOUR USERNAME>/emergencyWebPage-template.git
    ```
 
-3. Install `npm` packages
+3. Clone all submodules available from remote to local.
 
-   ```sh
+   ```powershell
+   cd "emergencyWebPage-template" && git submodule update --init --recursive
+   ```
+
+   > This way is compatible with older version of `git`.
+
+4. Install `npm` packages
+
+   ```powershell
    npm install
    ```
 
-4. Check if node dependencies up-to-date
+5. Check if node dependencies up-to-date
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
