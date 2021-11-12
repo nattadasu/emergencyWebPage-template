@@ -39,6 +39,7 @@
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#todo">TODO</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -219,6 +220,18 @@ This project and everyone participating in it is governed by the
 [Contributor Covenant Code of Conduct version 2.0][conduct]. By participating,
 you are expected to uphold this code. For detailed information, read
 [CODE_OF_CONDUCT.md][conduct].
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## TODO
+
+* [ ] Add `i18n` (internationalization) feature so it can be understandable
+  by public which does not have English background/skill.
+* [ ] Very compact/small repo packages and structure to maintain simplicity but
+  powerful.
+* [ ] Webpage templates library whilst maintaining faster load.
+* [ ] Encrypted documents.\
+  *This should be also compatible with older browser, mainly KaiOS v2.5.*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
