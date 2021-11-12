@@ -27,7 +27,7 @@
     "no-trailing-punctuation": false,
     "ol-prefix": false,
     "line-length": {
-      "line_length": 100,
+      "line_length": 80,
       "tables": false
     }
   },
