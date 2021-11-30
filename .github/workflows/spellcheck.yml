@@ -7,7 +7,10 @@ jobs:
   spellcheck: # run the action
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Cloning repo and its submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - uses: streetsidesoftware/cspell-action@v1.3.5
         with:
           config: config/cspell.json
