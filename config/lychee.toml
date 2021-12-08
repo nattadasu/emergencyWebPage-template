@@ -20,7 +20,10 @@ headers = [
 ###
 # Exclude URLs from checking (supports regex)
 exclude = [
-    "http://www.e-medtools.com/openmedspel.html"
+    "http://www.e-medtools.com",
+    "http://mtherald.com",
+    "http://rajn.co",
+    "http://udm.adrianvintu.com"
 ]
 
 # Exclude link-local IP address range from checking
