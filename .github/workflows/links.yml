@@ -17,7 +17,7 @@ jobs:
           submodules: recursive
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.2.0
+        uses: lycheeverse/lychee-action@v1.1.1
         with:
           args: -v -c "config/lychee.toml" -n "**/*.md" "**/*.html" -b .
         env:
