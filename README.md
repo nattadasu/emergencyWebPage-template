@@ -72,7 +72,7 @@ and [W3.CSS](https://www.w3schools.com/w3css/) to maintain lightweight of the
 site, as we require this site to load ASAP.
 
 However, to maintain simplicity and faster deploy, this repo was engineered to
-be suitable with [GitHub Pages](https://guides.github.com/features/pages/)
+be suitable with [GitHub Pages](https://docs.github.com/en/pages/quickstart)
 without/less configuration required.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
