@@ -23,7 +23,8 @@ exclude = [
     "http://www.e-medtools.com",
     "http://mtherald.com",
     "http://rajn.co",
-    "http://udm.adrianvintu.com"
+    "http://udm.adrianvintu.com",
+    "https://docs.github.com/en/pages/quickstart"
 ]
 
 # Exclude link-local IP address range from checking
